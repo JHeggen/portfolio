@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import Navbar from './navbar.js';
+//import $ from 'jquery'; 
 import './App.css';
 
 function App() {

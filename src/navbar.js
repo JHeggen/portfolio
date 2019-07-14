@@ -13,6 +13,7 @@ function Navbar() {
                 </div>
 
                 <div className="collapse navbar-collapse nav-collapse">
+      asdf
                     <div className="menu-container">
                         <ul className="nav navbar-nav navbar-nav-right">
                             <li className="js_nav-item nav-item"><a className="nav-item-child nav-item-hover" href="#body">Home</a></li>
