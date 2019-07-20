@@ -1,5 +1,15 @@
 import React from 'react';
 
+const sections = [ 'Home', 'About', 'Skills', 'Background', 'Blog', 'Work', 'Contact' ];
+
+/*toLower = function(x){ 
+  return x.toLowerCase();
+};*/
+
+const listItems = sections.map((section, i) =>
+  <li key={i} className="js_nav-item nav-item"><a className="nav-item-child nav-item-hover" href={`#`+section}>{section}</a></li>
+);
+
 function Navbar() {
   return (
     <header className="header navbar-fixed-top">
@@ -13,16 +23,9 @@ function Navbar() {
                 </div>
 
                 <div className="collapse navbar-collapse nav-collapse">
-      asdf
                     <div className="menu-container">
                         <ul className="nav navbar-nav navbar-nav-right">
-                            <li className="js_nav-item nav-item"><a className="nav-item-child nav-item-hover" href="#body">Home</a></li>
-                            <li className="js_nav-item nav-item"><a className="nav-item-child nav-item-hover" href="#about">About</a></li>
-                            <li className="js_nav-item nav-item"><a className="nav-item-child nav-item-hover" href="#experience">Skills</a></li>
-                            <li className="js_nav-item nav-item"><a className="nav-item-child nav-item-hover" href="#experience">Background</a></li>
-                            <li className="js_nav-item nav-item"><a className="nav-item-child nav-item-hover" href="#experience">Blog</a></li>
-                            <li className="js_nav-item nav-item"><a className="nav-item-child nav-item-hover" href="#work">Work</a></li>
-                            <li className="js_nav-item nav-item"><a className="nav-item-child nav-item-hover" href="#contact">Contact</a></li>
+                            {listItems}
                         </ul>
                     </div>
                 </div>
