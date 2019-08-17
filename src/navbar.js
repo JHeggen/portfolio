@@ -2,12 +2,12 @@ import React from 'react';
 
 const sections = [ 'Home', 'About', 'Skills', 'Background', 'Blog', 'Work', 'Contact' ];
 
-/*toLower = function(x){ 
+const toLower = function(x){ 
   return x.toLowerCase();
-};*/
+};
 
 const listItems = sections.map((section, i) =>
-  <li key={i} className="js_nav-item nav-item"><a className="nav-item-child nav-item-hover" href={`#`+section}>{section}</a></li>
+  <li key={i} className="js_nav-item nav-item"><a className="nav-item-child nav-item-hover" href={`#`+toLower(section)}>{section}</a></li>
 );
 
 function Navbar() {

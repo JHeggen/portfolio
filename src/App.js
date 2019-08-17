@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import Navbar from './navbar.js';
+import Header from './header.js';
 //import $ from 'jquery'; 
 import './App.css';
 
@@ -8,6 +9,7 @@ function App() {
   return (
     <div className="App">
       <Navbar/>
+      <Header/>
       <div className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
