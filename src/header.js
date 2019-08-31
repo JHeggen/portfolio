@@ -13,7 +13,7 @@ const listLinks = links.map((link, i) =>
 
 function Header() {
   return (
-        <div className="promo-block parallax-window" data-parallax="scroll" data-image-src="https://sonyamoisset.github.io/img/bg.jpg">
+        <div className="promo-block parallax-window" data-parallax="scroll" data-image-src={require("./img/bg.jpg")}>
             <div className="container">
                 <div className="row">
                     <div className="col-sm-6">
