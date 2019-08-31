@@ -1,8 +1,8 @@
 import React from 'react';
 
 const links = [ 
-    {name: 'linkedin', url: 'https://www.linkedin.com/in/sonyamoisset/'},
-    {name: 'github', url: 'https://github.com/SonyaMoisset'},
+    {name: 'linkedin', url: 'https://www.linkedin.com/in/jonathan-heggen-8b5637152/'},
+    {name: 'github', url: 'https://github.com/JHeggen'},
     {name: 'twitter', url: 'https://twitter.com/SonyaMoisset'},
     {name: 'medium', url: 'https://medium.com/@sonya.moisset'}
 ];
@@ -19,7 +19,7 @@ function Header() {
                     <div className="col-sm-6">
                         <div className="promo-block-divider">
                             <h1 className="text-left promo-block-title">Jonathan <br/> Heggen</h1>
-                            <p className="text-left promo-block-text">Full Stack JavaScript Mary Sue &amp; Tech Advocate</p>
+                            <p className="text-left promo-block-text">Full Stack JavaScript / PHP Engineer</p>
                         </div>
                         <ul className="text-left list-inline">
                             {listLinks}
