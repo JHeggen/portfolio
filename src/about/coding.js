@@ -2,22 +2,22 @@ import React from 'react';
 
 var containerDivStyle = {
     position: 'relative',
-    height: 'height: 554.328px'
+    height: '554.328px'
 };
+
 var imgStyle = {
     visibility: 'visible',
     animationDelay: '0.2s',
     animationName: 'fadeInUp'
 };
 
-const divStyle = function(x){ 
-    var innerDivStyle = {
+const divStyle = function(x) { 
+    return {
         position: 'absolute',
         left: x,
         top: '0px'
     };
-    return innerDivStyle;
-  };
+};
 
 const sections = [ 
     {
