@@ -1,5 +1,14 @@
 import React from 'react';
 
+const links = [ 
+    {name: 'linkedin', url: 'https://www.linkedin.com/in/jonathan-heggen-8b5637152/'},
+    {name: 'github', url: 'https://github.com/JHeggen'}
+];
+
+const listLinks = links.map((link, i) =>
+    <li key={i}><a href={link.url} rel="noopener noreferrer" target="_blank"> <i className={"fa fa-2x fa-" + link.name} aria-hidden="true"></i></a></li>
+);
+
 function Contact() {
   return (
     <div id="contact">
@@ -25,10 +34,7 @@ function Contact() {
                             <div className="col-md-3 col-xs-6">
                                 <h5>Social Media</h5>
                                 <ul className="list-inline">
-                                    <li><a href="https://www.linkedin.com/in/sonyamoisset/" rel="noopener noreferrer" target="_blank"> <i className="fa fa-linkedin fa-2x" aria-hidden="true"></i></a></li>
-                                    <li><a href="https://github.com/SonyaMoisset" rel="noopener noreferrer" target="_blank"> <i className="fa fa-github fa-2x" aria-hidden="true"></i></a></li>
-                                    <li><a href="https://twitter.com/SonyaMoisset" rel="noopener noreferrer" target="_blank"> <i className="fa fa-twitter fa-2x" aria-hidden="true"></i></a></li>
-                                    <li><a href="https://medium.com/@sonya.moisset" rel="noopener noreferrer" target="_blank"> <i className="fa fa-medium fa-2x" aria-hidden="true"></i></a></li>
+                                    {listLinks}
                                 </ul>
                             </div>
                         </div>

@@ -2,9 +2,9 @@ import React from 'react';
 
 const links = [ 
     {name: 'linkedin', url: 'https://www.linkedin.com/in/jonathan-heggen-8b5637152/'},
-    {name: 'github', url: 'https://github.com/JHeggen'},
-    {name: 'twitter', url: 'https://twitter.com/SonyaMoisset'},
-    {name: 'medium', url: 'https://medium.com/@sonya.moisset'}
+    {name: 'github', url: 'https://github.com/JHeggen'}
+    //{name: 'twitter', url: 'https://twitter.com/x'},
+    //{name: 'medium', url: 'https://medium.com/@x'}
 ];
 
 const listLinks = links.map((link, i) =>
