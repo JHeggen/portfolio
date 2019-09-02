@@ -4,73 +4,51 @@ var serviceHeight = {
     height: '377px'
 };
 
-var serviceHeightMiddle = {
-    height: '377px',
-    visibility: 'visible',
-    animationDelay: '0.1s'
-};
-
-
 const topRows = [
     {
         name: 'Front-end I', 
         classExtra: '',
-        outerClassExtra: 'md-margin-b-4',
         serviceIconClass: 'icon-chemistry',
         nameClass: '',
-        dataWowDuration: '',
-        dataWowDelay: '',
-        serviceHeight: serviceHeight,
         text: 'HTML5, Templating engines, CSS3, CSS frameworks, CSS preprocessors, CSS Grid, Flexbox, Atomic Design, BEM, Pattern Library'
     },
     {
         name: 'Back-end', 
         classExtra: 'bg-color-base wow zoomIn animated',
-        outerClassExtra: 'md-margin-b-4',
         serviceIconClass: 'color-white icon-screen-tablet',
         nameClass: 'color-white',
-        dataWowDuration: '.3',
-        dataWowDelay: '.1s',
-        serviceHeight: serviceHeightMiddle,
         text: 'Node.js, Express, MongoDB, Firebase, SQL, Adonis, Laravel, Rails, Sinatra, Django, Flask, Phoenix'
     },
     {
         name: 'Front-end II', 
         classExtra: '',
-        outerClassExtra: '',
         serviceIconClass: 'icon-badge',
         nameClass: '',
-        dataWowDuration: '',
-        dataWowDelay: '',
-        serviceHeight: serviceHeight,
         text: 'JS, ES6, JS Frameworks (React, Redux, Angular, Vue, Ember, jQuery), TypeScript, JS Tools (Yarn, npm, Webpack, Rollup, Babel, Browserify, Gulp)'
     }
 ];  
 
 const bottomRows = [
     {
-        outerClassExtra: 'md-margin-b-4',
         serviceIconClass: 'icon-chemistry',
         name: 'Testing, Code Coverage &amp; Performance', 
         text: 'Karma, Mocha, Enzyme, Sinon, Istanbul, Chrome DevTools, LightHouse, PageSpeed, React/Redux DevTools'
     },
     {
-        outerClassExtra: 'md-margin-b-4',
         serviceIconClass: 'icon-chemistry',
         name: 'Mobile First', 
         text: 'UX/UI, Responsive Design, Mobile Design, Cross-Browser Dev, Performance Testing, Accessibility, SEO, PWA'
     },
     {
-        outerClassExtra: '',
         serviceIconClass: 'icon-badge',
-        name: 'Mobile First', 
+        name: 'Full Stack', 
         text: 'Wireframe, Prototype, MVC, Design Pattern, OOP, REST API, Modules, SPA, Agile Methodologies, Scrum, Mobile Dev, Android, Swift, React Native'
     }
 ]
 
 const listTopRows = topRows.map((section, i) =>
-    <div key={i} className={`col-md-4 `+ section.outerClassExtra}>
-        <div className={`service `+ section.classExtra} data-height="height" data-wow-duration={section.dataWowDuration} data-wow-delay={section.dataWowDelay} style={section.serviceHeight}>
+    <div key={i} className="col-md-4 md-margin-b-4">
+        <div className={`service `+ section.classExtra} data-height="height" style={serviceHeight}>
             <div className="service-element">
                 <i className={`service-icon `+ section.serviceIconClass}></i>
             </div>
@@ -83,7 +61,7 @@ const listTopRows = topRows.map((section, i) =>
 );
 
 const listBottomRows = bottomRows.map((section, i) =>
-    <div key={i} className={`col-md-4 `+ section.outerClassExtra}>
+    <div key={i} className="col-md-4 md-margin-b-4">
         <div className="service" data-height="height" style={serviceHeight}>
             <div className="service-element">
                 <i className={`service-icon `+ section.serviceIconClass}></i>
