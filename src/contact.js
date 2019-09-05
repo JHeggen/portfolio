@@ -1,15 +1,13 @@
 import React from 'react';
 
-const links = [ 
-    {name: 'linkedin', url: 'https://www.linkedin.com/in/jonathan-heggen-8b5637152/'},
-    {name: 'github', url: 'https://github.com/JHeggen'}
-];
+function Contact(props) {
 
-const listLinks = links.map((link, i) =>
-    <li key={i}><a href={link.url} rel="noopener noreferrer" target="_blank"> <i className={"fa fa-2x fa-" + link.name} aria-hidden="true"></i></a></li>
-);
+    const size = '2';
 
-function Contact() {
+    const listLinks = (props.links).map((link, i) =>
+        <li key={i}><a href={link.url} rel="noopener noreferrer" target="_blank"> <i className={"fa fa-"+ size +"x fa-" + link.name} aria-hidden="true"></i></a></li>
+    );
+
   return (
     <div id="contact">
         <div className="bg-color-sky-light">

@@ -1,17 +1,13 @@
 import React from 'react';
 
-const links = [ 
-    {name: 'linkedin', url: 'https://www.linkedin.com/in/jonathan-heggen-8b5637152/'},
-    {name: 'github', url: 'https://github.com/JHeggen'}
-    //{name: 'twitter', url: 'https://twitter.com/x'},
-    //{name: 'medium', url: 'https://medium.com/@x'}
-];
+function Header(props) {
 
-const listLinks = links.map((link, i) =>
-    <li key={i}><a href={link.url} target="_blank" rel="noopener noreferrer"> <i className={"fa fa-3x fa-" + link.name} aria-hidden="true"></i></a></li>
-);
+    const size = '3';
 
-function Header() {
+    const listLinks = (props.links).map((link, i) =>
+        <li key={i}><a href={link.url} target="_blank" rel="noopener noreferrer"> <i className={"fa fa-"+ size +"x fa-" + link.name} aria-hidden="true"></i></a></li>
+    );
+
   return (
         <div className="promo-block parallax-window" data-parallax="scroll" data-image-src={require("./img/bg.jpg")}>
             <div className="container">

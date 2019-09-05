@@ -5,14 +5,21 @@ import About from './about.js';
 import Experience from './experience.js'
 import Contact from './contact.js'
 
+const links = [ 
+  {name: 'linkedin', url: 'https://www.linkedin.com/in/jonathan-heggen-8b5637152/'},
+  {name: 'github', url: 'https://github.com/JHeggen'}
+  //{name: 'twitter', url: 'https://twitter.com/x'},
+  //{name: 'medium', url: 'https://medium.com/@x'}
+];
+
 function App() {
   return (
     <div className="App">
       <Navbar/>
-      <Header/>
+      <Header links={links}/>
       <About/>
       <Experience/>
-      <Contact/>
+      <Contact links={links}/>
     </div>
   );
 }
