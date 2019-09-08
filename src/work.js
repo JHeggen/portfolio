@@ -72,33 +72,33 @@ const projects = [
 ];  
 
 const listProjects = projects.map((project, i) =>
-    <div key={i} class="masonry-grid-item col-xs-12 col-sm-6 margin-b-30">
-        <div class="work work-popup-trigger">
-            <div class="work-overlay">
-                <img class="full-width img-responsive" src={project.imageSrc} alt="Portfolio"/>
+    <div key={i} className="masonry-grid-item col-xs-12 col-sm-6 margin-b-30">
+        <div className="work work-popup-trigger">
+            <div className="work-overlay">
+                <img className="full-width img-responsive" src={project.imageSrc} alt="Portfolio"/>
             </div>
-            <div class="work-popup-overlay">
-                <div class="work-popup-content">
-                    <a href="/#" class="work-popup-close">Hide</a>
-                    <div class="margin-b-30">
-                        <h3 class="margin-b-5">{project.title}</h3>
+            <div className="work-popup-overlay">
+                <div className="work-popup-content">
+                    <a href="/#" className="work-popup-close">Hide</a>
+                    <div className="margin-b-30">
+                        <h3 className="margin-b-5">{project.title}</h3>
                         <span>{project.subtitle}</span>
                     </div>
-                    <div class="row">
-                        <div class="col-sm-8 work-popup-content-divider sm-margin-b-20">
-                            <div class="margin-t-10 sm-margin-t-0">
+                    <div className="row">
+                        <div className="col-sm-8 work-popup-content-divider sm-margin-b-20">
+                            <div className="margin-t-10 sm-margin-t-0">
                                 <p>{project.description}</p>
                                 <p>Link: <a href={project.link} target="_blank" rel="noopener noreferrer">{project.linkName}</a></p>
-                                <ul class="list-inline work-popup-tag">
-                                    <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="/#">Design,</a></li>
-                                    <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="/#">Coding,</a></li>
-                                    <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="/#">Portfolio</a></li>
+                                <ul className="list-inline work-popup-tag">
+                                    <li className="work-popup-tag-item"><a className="work-popup-tag-link" href="/#">Design,</a></li>
+                                    <li className="work-popup-tag-item"><a className="work-popup-tag-link" href="/#">Coding,</a></li>
+                                    <li className="work-popup-tag-item"><a className="work-popup-tag-link" href="/#">Portfolio</a></li>
                                 </ul>
                             </div>
                         </div>
-                        <div class="col-sm-4">
-                            <div class="margin-t-10 sm-margin-t-0">
-                                <p class="margin-b-5"><strong>Tech:</strong> {project.technology}</p>
+                        <div className="col-sm-4">
+                            <div className="margin-t-10 sm-margin-t-0">
+                                <p className="margin-b-5"><strong>Tech:</strong> {project.technology}</p>
                             </div>
                         </div>
                     </div>
@@ -112,16 +112,16 @@ function Work() {
 
   return (
     <div id="work">
-        <div class="section-seperator">
-            <div class="content-md container">
-                <div class="row margin-b-40">
-                    <div class="col-sm-6">
+        <div className="section-seperator">
+            <div className="content-md container">
+                <div className="row margin-b-40">
+                    <div className="col-sm-6">
                         <h2>Portfolio</h2>
                         <p>I deliver the real value.</p>
                     </div>
                 </div>
-                <div class="masonry-grid row" style={outerStyle}>
-                    <div class="masonry-grid-sizer col-xs-6 col-sm-6 col-md-1"></div>
+                <div className="masonry-grid row" style={outerStyle}>
+                    <div className="masonry-grid-sizer col-xs-6 col-sm-6 col-md-1"></div>
                     {listProjects}
                 </div>
             </div>

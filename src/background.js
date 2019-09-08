@@ -45,7 +45,7 @@ const listAchievements = achievements.map((achievement, i) =>
 function Background() {
 
   return (
-    <div id="products">
+    <div id="background">
         <div className="content-lg container">
             <div className="row margin-b-40">
                 <div className="col-sm-6">

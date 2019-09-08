@@ -1,6 +1,6 @@
 import React from 'react';
 
-const sections = [ 'Home', 'About', 'Skills', 'Background', 'Blog', 'Work', 'Contact' ];
+const sections = [ 'Home', 'About', 'Skills', 'Background', 'Work', 'Contact' ];
 
 const toLower = function(x){ 
   return x.toLowerCase();

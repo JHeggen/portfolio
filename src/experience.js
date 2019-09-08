@@ -76,7 +76,7 @@ const listBottomRows = bottomRows.map((section, i) =>
 
 function Experience() {
   return (
-        <div id="experience">
+        <div id="skills">
             <div className="bg-color-sky-light" data-auto-height="true">
                 <div className="container content-lg">
                     <div className="row margin-b-40">

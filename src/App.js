@@ -16,7 +16,7 @@ const links = [
 
 function App() {
   return (
-    <div className="App">
+    <div className="App" id="home">
       <Navbar/>
       <Header links={links}/>
       <About/>
