@@ -32,14 +32,14 @@ const sections = [
         leftStyle: divStyle('33.299%'),
         image: 'https://sonyamoisset.github.io/img/about/02.jpeg',
         wowDelay: '.3s',
-        text: 'What keeps a user coming back? What is this difference between a great product and a confusing mess? I am a student of good product design, and I strive to learn more about the needs of my customer.'
+        text: 'What keeps a user coming back? I am a student of good product design, and I strive to learn more about the needs of my customer.'
     },
     {
         name: 'Efficiency', 
         leftStyle: divStyle('66.5979%'),
         image: 'https://sonyamoisset.github.io/img/about/03.jpg',
         wowDelay: '.4s',
-        text: 'Loading pages -- they\'re a nuisance that should be a thing of the past. From good, clean queries to efficient analytics, speed and efficiency are paramount when I consider a product\'s behavior.' 
+        text: 'From good, clean queries to efficient analytics, speed and efficiency are paramount when I consider a product\'s behavior.' 
     }
 ];
 

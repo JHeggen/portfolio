@@ -10,7 +10,10 @@ const experience = [
 ];  
 
 const achievements = [ 
-    //'BEST APP: New Westminster open data competition, 2016', 
+    {
+        title: 'BEST APP: New Westminster open data competition, 2017', 
+        link: 'https://commons.bcit.ca/news/2017/04/computer-systems-technology-students-wow-vips-with-apps-using-city-data/'
+    }
 ];
 
 const listExperience = experience.map((experience, i) =>
@@ -22,7 +25,7 @@ const listExperience = experience.map((experience, i) =>
 );
 
 const listAchievements = achievements.map((achievement, i) =>
-    <p key={i}>{achievement}</p>
+    <p key={i}>{achievement.title}<a href={achievement.link} rel="noopener noreferrer" target="_blank">  [LINK]</a></p>
 );
 
 function Background() {

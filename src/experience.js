@@ -32,7 +32,7 @@ const bottomRows = [
     {
         serviceIconClass: 'icon-chemistry',
         name: 'Environments', 
-        text: 'PHPStorm, Atom, Notepad++, Eclipse, Android Studio, VSCode, Uniface 3GL'
+        text: 'PHPStorm, Adobe Dreamweaver, Notepad++, Eclipse, Android Studio, VSCode, Uniface 3GL'
     },
     {
         serviceIconClass: 'icon-chemistry',

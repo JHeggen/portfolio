@@ -7,7 +7,7 @@ var outerStyle = {
 
 const projects = [
     {
-        imageSrc: 'https://sonyamoisset.github.io/img/portfolio/wr.png',
+        imageSrc: require("./img/portfolio/fraser_park_restaurant.png"),
         title: 'WorldRemit',
         subtitle: 'Online money transfer service',
         description: 'As a Frontend Engineer, I work on the main product, the corporate website and the development of new features.',
@@ -16,7 +16,7 @@ const projects = [
         technology: 'React/Redux'
     },
     {
-        imageSrc: 'https://sonyamoisset.github.io/img/portfolio/news.png',
+        imageSrc: require("./img/portfolio/mecinco.png"),
         title: 'Daily News',
         subtitle: 'React &amp; Redux news web app',
         description: 'Users can see the latest news and other news on the homepage.',
@@ -25,7 +25,7 @@ const projects = [
         technology: 'React/Redux'
     },
     {
-        imageSrc: 'https://sonyamoisset.github.io/img/portfolio/nba.png',
+        imageSrc: require("./img/portfolio/invoice_viewer.png"),
         title: 'Users can can see NBA highlights and vote for his/her favorite teams.',
         subtitle: 'Daily News',
         description: 'React &amp; Redux news web app',
@@ -34,38 +34,11 @@ const projects = [
         technology: 'React/Redux'
     },
     {
-        imageSrc: 'https://sonyamoisset.github.io/img/portfolio/musicdb.png',
+        imageSrc: require("./img/portfolio/boxwood.png"),
         title: 'NBA',
         subtitle: 'React &amp; Redux sports web app',
         description: 'Users can navigate between multiple artists and see a profile from each artist including albums covers.',
         link: 'React &amp; Redux news web app',
-        linkName: 'www.miwok.com',
-        technology: 'React/Redux'
-    },
-    {
-        imageSrc: 'https://sonyamoisset.github.io/img/portfolio/saas.png',
-        title: 'Music DB',
-        subtitle: 'A fictional startup where developers and entrepreneurs can meet up.',
-        description: 'Users can navigate between multiple artists and see a profile from each artist including albums covers.',
-        link: 'https://github.com/SonyaMoisset/miwok_ANDROID',
-        linkName: 'www.miwok.com',
-        technology: 'React/Redux'
-    },
-    {
-        imageSrc: 'https://sonyamoisset.github.io/img/portfolio/miwok.png',
-        title: 'DevMatch',
-        subtitle: 'Clean &amp; Minimalistic Design',
-        description: 'A fictional startup where developers and entrepreneurs can meet up.',
-        link: 'https://github.com/SonyaMoisset/miwok_ANDROID',
-        linkName: 'www.miwok.com',
-        technology: 'React/Redux'
-    },
-    {
-        imageSrc: 'https://sonyamoisset.github.io/img/portfolio/vm.png',
-        title: 'MiWok',
-        subtitle: 'English &amp; Miwok Translation Mobile App',
-        description: 'An Android app to learn the Miwok language.',
-        link: 'https://github.com/SonyaMoisset/miwok_ANDROID',
         linkName: 'www.miwok.com',
         technology: 'React/Redux'
     }
