@@ -6,43 +6,43 @@ var serviceHeight = {
 
 const topRows = [
     {
-        name: 'Front-end I', 
+        name: 'Front-end', 
         classExtra: '',
         serviceIconClass: 'icon-chemistry',
         nameClass: '',
-        text: 'HTML5, Templating engines, CSS3, CSS frameworks, CSS preprocessors, CSS Grid, Flexbox, Atomic Design, BEM, Pattern Library'
+        text: 'HTML5, CSS3, Javascript ES6, React / Redux, jQuery, npm, Bootstrap, Responsive Design'
     },
     {
         name: 'Back-end', 
         classExtra: 'bg-color-base wow zoomIn animated',
         serviceIconClass: 'color-white icon-screen-tablet',
         nameClass: 'color-white',
-        text: 'Node.js, Express, MongoDB, Firebase, SQL, Adonis, Laravel, Rails, Sinatra, Django, Flask, Phoenix'
+        text: 'SQL (MSSQL & MySQL), Amazon RDS & S3, Firebase, Laravel'
     },
     {
-        name: 'Front-end II', 
+        name: 'Cloud Computing', 
         classExtra: '',
         serviceIconClass: 'icon-badge',
         nameClass: '',
-        text: 'JS, ES6, JS Frameworks (React, Redux, Angular, Vue, Ember, jQuery), TypeScript, JS Tools (Yarn, npm, Webpack, Rollup, Babel, Browserify, Gulp)'
+        text: 'Amazon Web Services, Google Cloud Platform, Microsoft Azure'
     }
 ];  
 
 const bottomRows = [
     {
         serviceIconClass: 'icon-chemistry',
-        name: 'Testing, Code Coverage &amp; Performance', 
-        text: 'Karma, Mocha, Enzyme, Sinon, Istanbul, Chrome DevTools, LightHouse, PageSpeed, React/Redux DevTools'
+        name: 'Environments', 
+        text: 'PHPStorm, Atom, Notepad++, Eclipse, Android Studio, VSCode, Uniface 3GL'
     },
     {
         serviceIconClass: 'icon-chemistry',
-        name: 'Mobile First', 
-        text: 'UX/UI, Responsive Design, Mobile Design, Cross-Browser Dev, Performance Testing, Accessibility, SEO, PWA'
+        name: 'Code Pipelining', 
+        text: 'Docker, Jenkins, Puppet, Vagrant, Bitbucket, SVN, CI/CD, Scrum, Agile'
     },
     {
         serviceIconClass: 'icon-badge',
         name: 'Full Stack', 
-        text: 'Wireframe, Prototype, MVC, Design Pattern, OOP, REST API, Modules, SPA, Agile Methodologies, Scrum, Mobile Dev, Android, Swift, React Native'
+        text: 'LAMP, MVC, OOP, REST APIs, Java, Mobile Dev, Android, React Native'
     }
 ]
 
@@ -82,7 +82,7 @@ function Experience() {
                     <div className="row margin-b-40">
                         <div className="col-sm-6">
                             <h2>Skills</h2>
-                            <p>I specialize in Full Stack Development as my knowledge of multiple fields allows me to work on a project with the full scope in mind.</p>
+                            <p></p>
                         </div>
                     </div>
 
@@ -102,7 +102,7 @@ function Experience() {
                                         </div>
                                         <div className="service-info">
                                             <h3>Other Languages, Deploy &amp; CMS</h3>
-                                            <p className="margin-b-5">Markdown, Java, Ruby, PHP, Python, Elixir, Bash/Command Line, WordPress, Umbraco, Shopify, Prestashop, Nginx, Team City, Octopus, Splunk, CircleCI, AppVeyor, Heroku, Git, GitHub, GitLab</p>
+                                            <p className="margin-b-5">PHP, Bash/Command Line, MAMP, Heroku, Git, GitHub</p>
                                         </div>  
                                     </div>
                                 </div>

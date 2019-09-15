@@ -79,7 +79,7 @@ const listProjects = projects.map((project, i) =>
             </div>
             <div className="work-popup-overlay">
                 <div className="work-popup-content">
-                    <a href="/#" className="work-popup-close">Hide</a>
+                    <a href='#work' className="work-popup-close">Hide</a>
                     <div className="margin-b-30">
                         <h3 className="margin-b-5">{project.title}</h3>
                         <span>{project.subtitle}</span>
@@ -117,7 +117,7 @@ function Work() {
                 <div className="row margin-b-40">
                     <div className="col-sm-6">
                         <h2>Portfolio</h2>
-                        <p>I deliver the real value.</p>
+                        <p>Some of my favorite projects that I've built.</p>
                     </div>
                 </div>
                 <div className="masonry-grid row" style={outerStyle}>

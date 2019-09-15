@@ -1,13 +1,12 @@
 import React from 'react';
 
 const sections = [ 
-    "I'm Jonathan Heggen.", 
-    "I'm a lifelong traveler who lived in the Middle-East, North Africa and Asia and always looking for new challenges.", 
-    "1996. Tunisia | 2002. France | 2006. Saudi Arabia | 2010. Singapore", 
-    "2016. UK. Based in London, I am working as a Software Engineer for a FinTech company.", 
-    "Technology and computer have been in my life since I was a kid and I have always loved anything related with arts or pixels. I started to code and design at a very young age. Most of my skills and knowledge are self-taugh.", 
-    "I have a passion for designing detailed, creative and modern websites and applications on various platforms.", 
-    "I am also a Tech Advocate and member of Google Women Techmakers, Women Who Code, Ada's List, Ladies of Code, London Halfstack, React London, Amazon Appstore Developers UK &amp; many more. I regularly attend meetups, events and conferences in London."
+    "\"Can you build us a website?\"", 
+    "When I was first asked that question almost ten years ago, I could have easily answered \"no\".",
+    "Instead, I said \"no, but I'll learn\".", 
+    "That spirit of discovery has guided my career to this point, and continues to be a principle that I bring to all of my projects.", 
+    "From working on static websites for local businesses, to full-stack development on an SaaS used by more than 80,000 people, I've taken every opportunity to improve my understanding of enterprise architectures, new languages and libraries. I believe that no matter the project, big or small, there will always be some way to make it just a little bit better.", 
+    "I care about what I build, and I believe that's what sets me apart."
 ];
 
 const bio = sections.map((section, i) =>
@@ -20,7 +19,6 @@ function Intro() {
         <div className="col-sm-3 sm-margin-b-30">
             <div className="text-right sm-text-left">
                 <h2 className="margin-b-0">Intro</h2>
-                <p>#StayCurious, #KeepOnHacking &amp; #MakeItHappen</p>
             </div>
         </div>
         <div className="col-sm-8 col-sm-offset-1">

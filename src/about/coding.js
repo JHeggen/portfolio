@@ -21,25 +21,25 @@ const divStyle = function(x) {
 
 const sections = [ 
     {
-        name: 'Coding', 
+        name: 'UX / UI', 
         leftStyle: divStyle('0%'),
         image: 'https://sonyamoisset.github.io/img/about/01.jpg',
         wowDelay: '.2s',
-        text: 'I am constantly pursuing my passion to learn more about programming languages (C#, Java, Python, Ruby, Kotlin, Elixir), frameworks (React, Angular, Vue, Laravel, Rails, Django, Phoenix) and techniques in order to become a more well-rounded Software Engineer.'
+        text: 'Even the best products are helpless without great design. I care deeply about making a pleasing environment for a user to conduct their business.'
     },
     {
-        name: 'Challenges', 
+        name: 'Product', 
         leftStyle: divStyle('33.299%'),
         image: 'https://sonyamoisset.github.io/img/about/02.jpeg',
         wowDelay: '.3s',
-        text: 'From International Business Consultant to Full-Stack Software Engineer, my journey is being depicted in this interview <a href="https://medium.com/worldremit/sonyas-journey-international-business-consultant-to-full-stack-dev-9254598bc2c0" target="_blank" rel="noopener noreferrer"><u>@worldremit Interview</u></a>'
+        text: 'What keeps a user coming back? What is this difference between a great product and a confusing mess? I am a student of good product design, and I strive to learn more about the needs of my customer.'
     },
     {
-        name: 'Interests', 
+        name: 'Efficiency', 
         leftStyle: divStyle('66.5979%'),
         image: 'https://sonyamoisset.github.io/img/about/03.jpg',
         wowDelay: '.4s',
-        text: 'Software Development, Programming Languages, App Security, Web App, Mobile App, VR, AR, Alexa Skills, Watson API, Machine Learning, AI, Amazon Fire TV Stick, Video Games, eSports, Blockchain, Cryptocurrency'
+        text: 'Loading pages -- they\'re a nuisance that should be a thing of the past. From good, clean queries to efficient analytics, speed and efficiency are paramount when I consider a product\'s behavior.' 
     }
 ];
 

@@ -2,32 +2,15 @@ import React from 'react';
 
 const experience = [
     {
-        title: 'International Business Mgmt &amp; Geopolitics', 
-        subtitle: 'Master',
-        moreInfo: 'Valedictorian | Paris School of Business',
-        location: 'Paris, France'
-    },
-    {
-        title: 'Korean Language, Culture, History &amp; Economics', 
-        subtitle: 'Degree',
-        moreInfo: 'Honours | Sogang University',
-        location: 'Seoul, South Korea'
-    },
-    {
-        title: 'Android Developer Nanodegree', 
-        subtitle: 'Google EU Scholarship',
-        moreInfo: 'In Progress | Udacity',
-        location: 'London, UK'
+        title: 'Computing Systems Technology, Cloud Computing', 
+        subtitle: 'Associate\'s Degree',
+        moreInfo: 'Distinction | BCIT',
+        location: 'Burnaby, British Columbia'
     }
 ];  
 
 const achievements = [ 
-    'TREEHOUSE. Top 10 All Time Points Leaderboard | 80k+ points | 1k+ achievements | 350+ courses ', 
-    'PLURALSIGHT. 150+ courses completed', 
-    'CODESCHOOL. 475k+ points | 265+ levels | 50+ courses', 
-    'UDACITY. Intro to Algorithms | HTML5 Canvas | Responsive Images | Responsive Web Design Fundamentals | JS Design Patterns | Object-Oriented JS | JS Testing | Front End Frameworks | Web Tooling &amp; Automation | Android Development for Beginners', 
-    'COURSERA. CS 101 | An Intro to Programming | Algorithmic Toolbox | Fundamentals of Graphic Design | SEO Fundamentals | HCD | Gamification | Full Stack Web Dev | Responsive Web Dev and Design | Software Product Management', 
-    'EDX. Intro to CS | Intro to Bootstrap | Intro to jQuery | Intro to TypeScript | Intro to Project Management | The Sotfware Architect Code | Mobile App Experience'
+    //'BEST APP: New Westminster open data competition, 2016', 
 ];
 
 const listExperience = experience.map((experience, i) =>
@@ -50,7 +33,7 @@ function Background() {
             <div className="row margin-b-40">
                 <div className="col-sm-6">
                     <h2>Background</h2>
-                    <p>Former Consultant with 10+ years experience in International Business Development, constantly learning about Web App Development and Software Engineering through online courses, training, MOOCs, books and meet ups.</p>
+                    <p>With a background in QA and Full-stack, I've seen the every step of the SDLC.</p>
                 </div>
             </div>
 
