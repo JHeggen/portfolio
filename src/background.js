@@ -25,7 +25,7 @@ const listExperience = experience.map((experience, i) =>
 );
 
 const listAchievements = achievements.map((achievement, i) =>
-    <p key={i}>{achievement.title}<a href={achievement.link} rel="noopener noreferrer" target="_blank">  [LINK]</a></p>
+    <p key={i}>{achievement.title}<a href={achievement.link} rel="noopener noreferrer" target='"_blank"'>  [LINK]</a></p>
 );
 
 function Background() {

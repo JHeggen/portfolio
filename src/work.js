@@ -8,39 +8,39 @@ var outerStyle = {
 const projects = [
     {
         imageSrc: require("./img/portfolio/fraser_park_restaurant.png"),
-        title: 'WorldRemit',
-        subtitle: 'Online money transfer service',
-        description: 'As a Frontend Engineer, I work on the main product, the corporate website and the development of new features.',
-        link: 'https://github.com/SonyaMoisset/miwok_ANDROID',
-        linkName: 'www.miwok.com',
-        technology: 'React/Redux'
+        title: 'Fraser Park Restaurant',
+        subtitle: 'Single-page web site displaying menu, story, and contact info',
+        description: 'This is where it all started -- my first real client, who challenged me to create a clean, modern and easily navigable website.',
+        link: 'http://fraserparkrestaurant.com/',
+        linkName: 'fraserparkrestaurant.com',
+        technology: 'HTML5, Bootstrap, Javascript, CSS3, PHP (contact form)'
     },
     {
         imageSrc: require("./img/portfolio/mecinco.png"),
-        title: 'Daily News',
-        subtitle: 'React &amp; Redux news web app',
-        description: 'Users can see the latest news and other news on the homepage.',
-        link: 'https://github.com/SonyaMoisset/miwok_ANDROID',
-        linkName: 'www.miwok.com',
-        technology: 'React/Redux'
-    },
-    {
-        imageSrc: require("./img/portfolio/invoice_viewer.png"),
-        title: 'Users can can see NBA highlights and vote for his/her favorite teams.',
-        subtitle: 'Daily News',
-        description: 'React &amp; Redux news web app',
-        link: 'https://github.com/SonyaMoisset/miwok_ANDROID',
-        linkName: 'www.miwok.com',
-        technology: 'React/Redux'
+        title: 'Mecinco',
+        subtitle: 'Business information website',
+        description: 'Worked together with the client to design this page exactly to their requirements, as well as designing logos and branding.',
+        link: 'http://mecinco.com/',
+        linkName: 'mecinco.com',
+        technology: 'HTML5, Bootstrap, Javascript, CSS3, Adobe Photoshop, PHP (contact form)'
     },
     {
         imageSrc: require("./img/portfolio/boxwood.png"),
-        title: 'NBA',
-        subtitle: 'React &amp; Redux sports web app',
-        description: 'Users can navigate between multiple artists and see a profile from each artist including albums covers.',
-        link: 'React &amp; Redux news web app',
-        linkName: 'www.miwok.com',
-        technology: 'React/Redux'
+        title: 'The Boxwood Review',
+        subtitle: 'News / fiction webpage',
+        description: 'A passion project that unfortunately is now defunct, I designed the layout of the site myself with inspiration from larger newssites.',
+        link: '',
+        linkName: '[No longer active]',
+        technology: 'HTML5, Javascript, CSS3, PHP'
+    },
+    {
+        imageSrc: require("./img/portfolio/jonathan_heggen.png"),
+        title: 'Online portfolio page',
+        subtitle: 'This website!',
+        description: 'I started this project as a challenge to teach myself React / Redux.',
+        link: 'http://jonathanheggen.com/',
+        linkName: 'jonathanheggen.com',
+        technology: 'HTML5, React JS, Javascript, JS Libraries including Bootstrap, CSS3'
     }
 ];  
 
@@ -61,7 +61,7 @@ const listProjects = projects.map((project, i) =>
                         <div className="col-sm-8 work-popup-content-divider sm-margin-b-20">
                             <div className="margin-t-10 sm-margin-t-0">
                                 <p>{project.description}</p>
-                                <p>Link: <a href={project.link} target="_blank" rel="noopener noreferrer">{project.linkName}</a></p>
+                                <p>Link: <a href={project.link} target='"_blank"' rel="noopener noreferrer">{project.linkName}</a></p>
                                 <ul className="list-inline work-popup-tag">
                                     <li className="work-popup-tag-item"><a className="work-popup-tag-link" href="/#">Design,</a></li>
                                     <li className="work-popup-tag-item"><a className="work-popup-tag-link" href="/#">Coding,</a></li>

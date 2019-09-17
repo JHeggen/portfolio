@@ -2,10 +2,8 @@ import React from 'react';
 
 function Header(props) {
 
-    const size = '3';
-
     const listLinks = (props.links).map((link, i) =>
-        <li key={i}><a href={link.url} target="_blank" rel="noopener noreferrer"> <i className={"fa fa-"+ size +"x fa-" + link.name} aria-hidden="true"></i></a></li>
+        <li key={i}><a target="'_blank'" href={link.url} rel="noopener noreferrer"> <i className={"fa fa-3x fa-" + link.name} aria-hidden="true"></i></a></li>
     );
 
   return (

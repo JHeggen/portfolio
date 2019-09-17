@@ -5,7 +5,7 @@ function Contact(props) {
     const size = '2';
 
     const listLinks = (props.links).map((link, i) =>
-        <li key={i}><a href={link.url} rel="noopener noreferrer" target="_blank"> <i className={"fa fa-"+ size +"x fa-" + link.name} aria-hidden="true"></i></a></li>
+        <li key={i}><a href={link.url} rel="noopener noreferrer" target='"_blank"'> <i className={"fa fa-"+ size +"x fa-" + link.name} aria-hidden="true"></i></a></li>
     );
 
   return (

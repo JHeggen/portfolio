@@ -1,11 +1,10 @@
 import React from 'react';
 
 const sections = [ 
-    "\"Can you build us a website?\"", 
-    "When I was first asked that question almost ten years ago, I could have easily answered \"no\".",
-    "Instead, I said \"no, but I'll learn\".", 
-    "That spirit of discovery has guided my career to this point, and continues to be a principle that I bring to all of my projects.", 
-    "From working on static websites for local businesses, to full-stack development on an SaaS used by more than 80,000 people, I've taken every opportunity to improve my understanding of enterprise architectures, new languages and libraries. I believe that no matter the project, big or small, there will always be some way to make it just a little bit better.", 
+    "A few years ago, while working at a local restaurant, I was asked if I knew anyone who knew how to build a website.",
+    "I remember thinking \"How hard could it be?\" and set out building my first site with some books borrowed from the library.",
+    "The rest, as they say, is history.",
+    "From working on static pages for local businesses, to full-stack development on an SaaS used by more than 80,000 people, I've taken every opportunity to improve my understanding of enterprise architectures, new languages and libraries. I believe that no matter the project, big or small, there will always be some way to make it just a little bit better.", 
     "I care about what I build, and I believe that's what sets me apart."
 ];
 
