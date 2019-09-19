@@ -1,11 +1,9 @@
 import React from 'react';
 
 const sections = [ 
-    "A few years ago, while working at a local restaurant, I was asked if I knew anyone who knew how to build a website.",
-    "I remember thinking \"How hard could it be?\" and set out building my first site with some books borrowed from the library.",
-    "The rest, as they say, is history.",
-    "From working on static pages for local businesses, to full-stack development on an SaaS used by more than 80,000 people, I've taken every opportunity to improve my understanding of enterprise architectures, new languages and libraries. I believe that no matter the project, big or small, there will always be some way to make it just a little bit better.", 
-    "I care about what I build, and I believe that's what sets me apart."
+    "I'm Jonathan, a Vancouver-based software engineer / tinkerer / ping-pong champion in training. ",
+    "From working on static pages for local businesses, to full-stack development on an SaaS used by more than 80,000 people, I've taken every opportunity to improve my understanding of web enterprise architectures, new languages and libraries.",
+    "I believe that no matter the project, big or small, there will always be some way to make it just a little bit better."
 ];
 
 const bio = sections.map((section, i) =>
@@ -30,3 +28,10 @@ function Intro() {
 }
 
 export default Intro;
+
+/*
+
+I'm Jonathan, a Vancouver-based software engineer / tinkerer / ping-pong champion in training. 
+
+
+*/

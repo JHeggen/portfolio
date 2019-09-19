@@ -30,16 +30,16 @@ const sections = [
     {
         name: 'Product', 
         leftStyle: divStyle('33.299%'),
-        image: require("../img/intro/02.jpeg"),
+        image: require("../img/intro/02.jpg"),
         wowDelay: '.3s',
-        text: 'What keeps a user coming back? I am a student of good product design, and I strive to learn more about the needs of my customer.'
+        text: 'What keeps a customer coming back? I am a student of good product design, and I\'m always striving to learn more about the needs of a user.'
     },
     {
         name: 'Efficiency', 
         leftStyle: divStyle('66.5979%'),
         image: require("../img/intro/03.jpg"),
         wowDelay: '.4s',
-        text: 'From good, clean queries to efficient analytics, speed and efficiency are paramount when I consider a product\'s behavior.' 
+        text: 'From good, clean queries to efficient analytics, speed and efficiency are paramount when I develop a product\'s behavior.' 
     }
 ];
 

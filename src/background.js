@@ -36,7 +36,7 @@ function Background() {
             <div className="row margin-b-40">
                 <div className="col-sm-6">
                     <h2>Background</h2>
-                    <p>With a background in QA and Full-stack, I've seen the every step of the SDLC.</p>
+                    <p>With a background in QA, support and Full-stack, I've seen the every step of the SDLC.</p>
                 </div>
             </div>
 
