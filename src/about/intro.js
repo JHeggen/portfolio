@@ -28,10 +28,3 @@ function Intro() {
 }
 
 export default Intro;
-
-/*
-
-I'm Jonathan, a Vancouver-based software engineer / tinkerer / ping-pong champion in training. 
-
-
-*/
