@@ -25,21 +25,21 @@ const sections = [
         leftStyle: divStyle('0%'),
         image: require("../img/intro/01.jpg"),
         wowDelay: '.2s',
-        text: 'Even the best products are helpless without great design. I care deeply about making a pleasing environment for a user to conduct their business.'
+        text: 'UX design is so much more than filling in a few wireframes -- I care about better UX because it means better retention, a pleasing experience, and happy customers.'
     },
     {
         name: 'Product', 
         leftStyle: divStyle('33.299%'),
         image: require("../img/intro/02.jpg"),
         wowDelay: '.3s',
-        text: 'What keeps a customer coming back? I am a student of good product design, and I\'m always striving to learn more about the needs of a user.'
+        text: 'What keeps a customer coming back? I am a student of good product design, and that means constantly striving to learn exactly what a user needs.'
     },
     {
         name: 'Efficiency', 
         leftStyle: divStyle('66.5979%'),
         image: require("../img/intro/03.jpg"),
         wowDelay: '.4s',
-        text: 'From good, clean queries to efficient analytics, speed and efficiency are paramount when I develop a product\'s behavior.' 
+        text: 'Nobody likes staring at loading pages. From good, clean queries to efficient analytics, speed and program architecture are paramount when I develop a product.' 
     }
 ];
 

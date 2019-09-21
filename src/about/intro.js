@@ -2,7 +2,7 @@ import React from 'react';
 
 const sections = [ 
     "I'm Jonathan, a Vancouver-based software engineer / tinkerer / ping-pong champion in training. ",
-    "From working on static pages for local businesses, to full-stack development on an SaaS used by more than 80,000 people, I've taken every opportunity to improve my understanding of web enterprise architectures, new languages and libraries.",
+    "From working on static pages for local businesses, to full-stack development on an SaaS used by more than 80,000 people, I consider every project an opportunity -- to learn a new language or technology, to improve a business process, to grow as a programmer.",
     "I believe that no matter the project, big or small, there will always be some way to make it just a little bit better."
 ];
 
