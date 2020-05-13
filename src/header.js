@@ -1,5 +1,9 @@
 import React from 'react';
 
+var headerImg = {
+    backgroundImage: 'linear-gradient(to right top, #000000, #2b2b2b, #525252, #7c7c7c, #aaaaaa)',
+};
+
 function Header(props) {
 
     const listLinks = (props.links).map((link, i) =>
@@ -7,7 +11,7 @@ function Header(props) {
     );
 
   return (
-        <div className="promo-block parallax-window" data-parallax="scroll" data-image-src={require("./img/bg.jpg")}>
+        <div style={headerImg} className="header-block promo-block parallax-window" data-parallax="scroll" /*data-image-src={require("./img/bg.jpg")}*/>
             <div className="container">
                 <div className="row">
                     <div className="col-sm-6">
