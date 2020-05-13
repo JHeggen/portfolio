@@ -1,21 +1,26 @@
 {
   "files": {
-    "main.js": "/portfolio/static/js/main.a8431edb.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.a8431edb.chunk.js.map",
-    "runtime~main.js": "/portfolio/static/js/runtime~main.f308c8e6.js",
-    "runtime~main.js.map": "/portfolio/static/js/runtime~main.f308c8e6.js.map",
-    "static/js/2.3310f33a.chunk.js": "/portfolio/static/js/2.3310f33a.chunk.js",
-    "static/js/2.3310f33a.chunk.js.map": "/portfolio/static/js/2.3310f33a.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.730423ee.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.730423ee.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.f4f2abbf.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.f4f2abbf.js.map",
+    "static/js/2.37241946.chunk.js": "/portfolio/static/js/2.37241946.chunk.js",
+    "static/js/2.37241946.chunk.js.map": "/portfolio/static/js/2.37241946.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.2cf0890daff7a81b831fb4543fcd0fb9.js": "/portfolio/precache-manifest.2cf0890daff7a81b831fb4543fcd0fb9.js",
+    "precache-manifest.5ac178a9fafbcd43d0665f0fc284afab.js": "/portfolio/precache-manifest.5ac178a9fafbcd43d0665f0fc284afab.js",
     "service-worker.js": "/portfolio/service-worker.js",
+    "static/js/2.37241946.chunk.js.LICENSE.txt": "/portfolio/static/js/2.37241946.chunk.js.LICENSE.txt",
     "static/media/01.jpg": "/portfolio/static/media/01.09b7a8b7.jpg",
     "static/media/02.jpg": "/portfolio/static/media/02.a3d4f09d.jpg",
     "static/media/03.jpg": "/portfolio/static/media/03.6bc43c8c.jpg",
-    "static/media/bg.jpg": "/portfolio/static/media/bg.25baecd6.jpg",
     "static/media/boxwood.png": "/portfolio/static/media/boxwood.087cb920.png",
     "static/media/fraser_park_restaurant.png": "/portfolio/static/media/fraser_park_restaurant.901eaa05.png",
     "static/media/jonathan_heggen.png": "/portfolio/static/media/jonathan_heggen.46a30fe3.png",
     "static/media/mecinco.png": "/portfolio/static/media/mecinco.64822785.png"
-  }
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f4f2abbf.js",
+    "static/js/2.37241946.chunk.js",
+    "static/js/main.730423ee.chunk.js"
+  ]
 }
